@@ -2,8 +2,8 @@ import React from 'react'
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
-import Yelp from '../../util/yelp'
-// import Business from '../Business/Business';
+import Yelp from '../../util/yelp';
+import Footer from '../footer/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -24,9 +24,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Title</h1>
+        <h1>Future Nav</h1>
         <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={this.state.businesses} />
+        <Footer />
       </div>
     )
   }
