@@ -3,7 +3,7 @@ import './SearchBar.css';
 
 class SearchBar extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
 
         this.state = {
             term: '',
