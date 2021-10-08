@@ -3,6 +3,7 @@ import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 import Yelp from '../../util/yelp';
+import Navmenu from '../Nav/Nav';
 import Footer from '../footer/Footer';
 
 class App extends React.Component {
@@ -24,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Future Nav</h1>
+        <Navmenu />
         <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={this.state.businesses} />
         <Footer />

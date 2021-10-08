@@ -60,8 +60,11 @@
 }
 
 .SearchBar-submit {
-    text-align: center;
-    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 15px;
     border: none;
     border-radius: 4px;
     background-color: #ffc900;
@@ -72,18 +75,12 @@
 }
 
 .SearchBar-submit:hover {
-    background-color: #ffc800ef;
+  background-color: #f0be0c !important;
+  color: #000000;
 }
 
 .SearchBar-submit:active {
   transform: scale(.95);
-}
-
-.SearchBar-submit a {
-    color: #0e0e0e;
-    font-weight: 400;
-    letter-spacing: .20px;
-    font-size: 14px;
 }
 
 @media only screen and (max-width: 560px) {

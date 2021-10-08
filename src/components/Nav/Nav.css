@@ -1,0 +1,50 @@
+.ml-auto {
+    margin-left: auto;
+}
+
+.right-nav-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #bbbbbb;
+    padding: 0;
+}
+
+.dropdown-menu.show {
+    right: 20%;
+    left: auto;
+    padding: 1rem;
+}
+
+.link-wrapper {
+    cursor: pointer;
+}
+
+.link-font {
+    display: block;
+    padding: 9px 12px 10px;
+    font-size: 14px;
+    line-height: 1.28571em;
+    font-weight: 400;
+}
+
+.link-font-sml {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-img {
+    display: block;
+    height: 18px;
+    width: 18px;
+}
+
+.nav-img-lrg {
+    display: block;
+    height: 32px;
+    width: 32px;
+}
