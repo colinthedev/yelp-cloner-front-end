@@ -1,4 +1,4 @@
-li {
+li,a {
   text-decoration: none;
   -webkit-text-decoration: none;
 }
@@ -41,7 +41,6 @@ li {
 
 li:hover,
 a:hover {
-  color: rgba(117,114,128,1);
-  opacity: .85;
+  color: rgb(156, 155, 161);
   text-decoration: underline;
 }
